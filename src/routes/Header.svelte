@@ -28,7 +28,7 @@
 <header>
 	<!-- <Navbar let:hidden let:toggle>
 		<NavBrand href="/">
-			<img src={logo} class="mr-3 h-6 sm:h-9" alt="Syntactics Inc. Logo" />
+			<img src={logo} class="h-6 mr-3 sm:h-9" alt="Syntactics Inc. Logo" />
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden} class="flex items-center">
@@ -43,14 +43,14 @@
 				<Button color="dark" pill>Get a Free Quote</Button>
 			</NavLi>
 
-			<Dropdown triggeredBy="#services-dropdown" class="w-44 z-20">
+			<Dropdown triggeredBy="#services-dropdown" class="z-20 w-44">
 				<DropdownItem href="/">Web Design and Development</DropdownItem>
 				<DropdownItem href="/">Digital Marketing</DropdownItem>
 				<DropdownItem href="/">Virtual Assistant</DropdownItem>
 				<DropdownItem href="/">IT Software and Hardware Support Services</DropdownItem>
 			</Dropdown>
 
-			<Dropdown triggeredBy="#products-dropdown" class="w-44 z-20">
+			<Dropdown triggeredBy="#products-dropdown" class="z-20 w-44">
 				<DropdownItem href="/">Bitdefender Cybersecurity</DropdownItem>
 				<DropdownItem href="/">FIFO Inventory System</DropdownItem>
 				<DropdownItem href="/">PXTrack: Electronic Medical Records Software</DropdownItem>
@@ -62,7 +62,7 @@
 		</NavUl>
 	</Navbar> -->
 
-	Ako si header
+	Ako si header halo
 </header>
 
 <style>
