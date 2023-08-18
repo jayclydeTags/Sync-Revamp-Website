@@ -1,0 +1,34 @@
+[
+    {
+        "title": "MedLife",
+        "alt": "Project Name",
+        "link": "/projects",
+        "image": "project-1.jpg",
+        "tags": ["Web Design", "Web Development"],
+        "category": "Website Projects"
+    },
+    {
+        "title": "Construction Company",
+        "alt": "Project Name",
+        "link": "/projects",
+        "image": "https://picsum.photos/200/300",
+        "tags": ["Web Design", "Web Development"],
+        "category": "Website Projects"
+    },
+    {
+        "title": "FitnesXia",
+        "alt": "Project Name",
+        "link": "/projects",
+        "image": "https://picsum.photos/200/300",
+        "tags": ["Web Design", "Web Development"],
+        "category": "Website Projects"
+    },
+    {
+        "title": "SAASA",
+        "alt": "Project Name",
+        "link": "/projects",
+        "image": "https://picsum.photos/200/300",
+        "tags": ["Web Design", "Web Development"],
+        "category": "Website Projects"
+    }
+]
