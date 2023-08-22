@@ -1,35 +1,35 @@
 <script>
 	import Image from "../components/image/Image.svelte";
-	import SyncLogo from "../lib/images/syntactics-icon.svg";
+	import SyncLogo from "$lib/images/syntactics-icon.svg";
 	import FooterMenu from "../components/FooterMenu.svelte";
 
 	// Payment Methods
-	import americanExpress from "../lib/images/american-express.svg";
-	import mastercard from "../lib/images/mastercard.svg";
-	import paypal from "../lib/images/paypal.svg";
-	import visa from "../lib/images/visa.svg";
+	import americanExpress from "$lib/images/american-express.svg";
+	import mastercard from "$lib/images/mastercard.svg";
+	import paypal from "$lib/images/paypal.svg";
+	import visa from "$lib/images/visa.svg";
 
 	// Awards
-	import SEO from "../lib/images/awards/best-in-Search-search_engine_optimization.jpg";
-	import Meta from "../lib/images/awards/meta-certified-digital-marketing-associate.jpg";
-	import Digital from "../lib/images/awards/the-digital.jpg";
-	import Clutch from "../lib/images/awards/top-clutch-top-software-developers.jpg";
+	import SEO from "$lib/images/awards/best-in-Search-search_engine_optimization.jpg";
+	import Meta from "$lib/images/awards/meta-certified-digital-marketing-associate.jpg";
+	import Digital from "$lib/images/awards/the-digital.jpg";
+	import Clutch from "$lib/images/awards/top-clutch-top-software-developers.jpg";
 
 	// Member of
-	import Epson from "../lib/images/membership/epson.png";
-	import ICT from "../lib/images/membership/ICT.png";
-	import oroChamber from "../lib/images/membership/oro-chamber.png";
-	import PhilGeps from "../lib/images/membership/PhilGeps.png";
-	import PSIA from "../lib/images/membership/PSIA.png";
+	import Epson from "$lib/images/membership/epson.png";
+	import ICT from "$lib/images/membership/ICT.png";
+	import oroChamber from "$lib/images/membership/oro-chamber.png";
+	import PhilGeps from "$lib/images/membership/PhilGeps.png";
+	import PSIA from "$lib/images/membership/PSIA.png";
 
 	// get the current year
 	let currentYear = new Date().getFullYear();
 
 </script>
 
-<div class="container-fluid mx-auto flex items-center bg-gray-950 px-4 md:px-8">
-	<div class="xl:container flex gap-y-16 flex-col pt-24 text-gray-400 leading-normal" >
-		<div class="grid sm:grid-cols-1 lg:grid-cols-4 gap-8">
+<div class="flex items-center px-4 mx-auto container-fluid bg-gray-950 md:px-8">
+	<div class="flex flex-col pt-24 leading-normal text-gray-400 xl:container gap-y-16" >
+		<div class="grid gap-8 sm:grid-cols-1 lg:grid-cols-4">
 			<div class="text-white">
 				<div class="mb-8">
 					<Image src={SyncLogo} alt="Syntactics Logo" />
@@ -39,7 +39,7 @@
 					Philippines 9000
 				</p>
 				<div class="mb-8 ">
-					<a class="pb-1 border-b border-primary-500 transition hover:text-primary-500" href="mailto:inquiries@syntacticsinc.com"
+					<a class="pb-1 transition border-b border-primary-500 hover:text-primary-500" href="mailto:inquiries@syntacticsinc.com"
 						>inquiries@syntacticsinc.com</a
 					>
 				</div>
@@ -57,9 +57,7 @@
 			</div>
 
 			<div class="col-span-3">
-				<div class="grid 
-					sm:grid-cols-2 
-					lg:grid-cols-3 gap-x-8 gap-y-16 mb-16">
+				<div class="grid mb-16 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
 					<div>
 						<h4 class="tracking-[0.125rem] uppercase mb-8 leading-normal">
 							Company
@@ -148,8 +146,8 @@
 
 		<!-- Copyright -->
 		<div>
-			<div class="border-y border-gray-800">
-				<div class="flex justify-between items-center my-8">
+			<div class="border-gray-800 border-y">
+				<div class="flex items-center justify-between my-8">
 					<h4 class="tracking-[0.125rem] uppercase leading-normal">
 						Proud Member of:
 					</h4>
@@ -162,11 +160,7 @@
 				</div>
 			</div>
 
-			<div class="flex justify-between 
-				sm:flex-col sm:my-6 sm:gap-6
-				md:my-8
-				lg:flex-row items-center 
-				 text-gray-600 text-sm">
+			<div class="flex items-center justify-between text-sm text-gray-600 sm:flex-col sm:my-6 sm:gap-6 md:my-8 lg:flex-row">
 				<p>© {currentYear} Syntactics, Inc. All Rights Reserved.</p>
 
 				<div class="flex items-stretch gap-2">
