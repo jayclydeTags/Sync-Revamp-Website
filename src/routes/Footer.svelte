@@ -19,7 +19,7 @@
 	import Epson from "$lib/images/membership/epson.png";
 	import ICT from "$lib/images/membership/ICT.png";
 	import oroChamber from "$lib/images/membership/oro-chamber.png";
-	import PhilGeps from "$lib/images/membership/PhilGeps.png";
+	import PhilGeps from "$lib/images/membership/PhilGEPS.png";
 	import PSIA from "$lib/images/membership/PSIA.png";
 
 	// get the current year
